@@ -12,8 +12,8 @@ function /*Função do JS*/ toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/assets/logo-ligth-mode.jpeg")
+    img.setAttribute("src", "./assets/assets/logo-ligth-mode.jpg")
   } else {
-    img.setAttribute("src", "./assets/assets/logo-dark-mode.jpeg")
+    img.setAttribute("src", "./assets/assets/logo-dark-mode.jpg")
   }
 }
